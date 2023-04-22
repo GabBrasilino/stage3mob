@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --ff-heading: 'Bebas Neue', sans-serif;
+  --ff-body: 'Domine', sans-serif;
+
+  --bc-body:#961a11;
+
+  --fc-text: #FFFFFF;
+
+  font-size: 62.5%;
+}
+
+body{
+  background-color: var(--bc-body);
+}
+
+header{
+  font-family: var(--ff-heading);
+  padding: 10rem 8.5rem 9rem;
+  font-size: 2rem;
+  line-height: 3rem;
+  font-weight: 400;
+  color: var(--fc-text);
+  text-align: center;
+
+  
+
+}
+
+main{
+  font-family: var(--ff-heading);
+  font-size: 2rem;
+  text-transform: lowercase;
+  line-height: 2rem;
+  font-weight: 400;
+  color: var(--fc-text);
+  text-align: center;
+
+  display: grid;
+  gap: 3.2rem;
+}
+
+main p{
+  margin-bottom: 6rem;
+}
+
+.page{
+  max-width: 32rem;
+  margin: 0 auto;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 2rem;
+}
+
+.card h2{
+  position: absolute;
+  top: 1.6rem;
+  right: 1.6rem;
+
+  border-radius: 2rem;
+  background-color: #FFFFFF;
+  height: 3.5rem;
+  font-size: 2rem;
+  color: #4A4E69;
+  font-weight: 400;
+  padding: 0 2.3rem;
+  height: 3.5rem;
+  display: inline-flex;
+  align-items: center;
+}
+
+.card{
+  position: relative;
+}
+
+.card img{
+  height: 45rem;
+  object-fit: cover;
+}
